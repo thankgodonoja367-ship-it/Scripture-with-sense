@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripture With Sense</title>
+    <p id="stickyVerse"></p>
+    <link rel="stylesheet" href="Ot.css">
+</head>
+<body>
+
+
+
+<div class="container">
+    <img src="logo.png" alt="Logo" class="logo">
+</div>
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="relationships.html">Relationships</a>
+    <a href="answers.html">Answers</a>
+</div>
+
+<div class="card">
+    <h2>🧠 Answers</h2>
+    <p>See real responses to real questions from people like you.</p>
+
+    <a class="button" href="answers.html">
+        View Answers
+    </a>
+</div>
+
+    <!-- Scripture 1 -->
+    <div class="card">
+        <h2>📖 Scripture 1</h2>
+        <p class="verse">
+            James 1:22 — “Do not merely listen to the word… do what it says.”
+        </p>
+        <p>
+            It’s easy to hear God’s word, agree with it, and still not change anything.
+        </p>
+        <p>
+            This verse exposes that. Listening without action is self-deception.
+            You feel like you’re growing, but nothing in your life is actually changing.
+        </p>
+        <p>
+            Growth is not what you know. It’s what you do consistently.
+        </p>
+    </div>
+
+    <!-- Scripture 2 -->
+    <div class="card">
+        <h2>📖 Scripture 2</h2>
+        <p class="verse">
+            Proverbs 4:23 — “Guard your heart, for everything you do flows from it.”
+        </p>
+        <p>
+            Your life doesn’t just happen. It flows from what you allow into your heart.
+        </p>
+        <p>
+            The content you consume, the people you listen to, the thoughts you entertain…
+            they are shaping your direction whether you notice it or not.
+        </p>
+        <p>
+            If you don’t guard it, you will live a life you didn’t intend.
+        </p>
+    </div>
+
+    <!-- Question 1 -->
+    <div class="card">
+        <h2>🤔 Real Question</h2>
+        <p>
+            “Why do I keep struggling with the same sin even though I pray?”
+        </p>
+        <p>
+            Because prayer without action changes nothing.
+        </p>
+        <p>
+            You’re asking for help, but not changing the habits or environments feeding the problem.
+        </p>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="card">
+        <h2>🤔 Real Question</h2>
+        <p>
+            “How do I stay consistent with God?”
+        </p>
+        <p>
+            Stop depending on motivation.
+        </p>
+        <p>
+            Build simple daily habits. Even when you don’t feel like it.
+            Consistency is built, not felt.
+        </p>
+    </div>
+
+    <!-- Call to action -->
+    <div class="card">
+        <h2>📩 Ask Anonymously</h2>
+<p>
+Got a real question? Ask it honestly. I’ll respond to some in the next update.
+</p>
+<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScDtU3-eFjrnrYC8Mt3VBWK2H96UFulYqpXfKSTR7RkgfaXiw/viewform?usp=publish-editor" target="_blank">
+Ask Your Question
+</a>
+    </div>
+
+</div>
+
+<script>
+const verses = [
+"🔥 1 Corinthians 6:18 — Flee from sexual immorality.",
+"🔥 Matthew 5:28 — Guard your eyes.",
+"🔥 2 Timothy 2:22 — Run from youthful lusts.",
+"🔥 Psalm 119:9 — Stay pure through God’s word.",
+"🔥 Job 31:1 — I made a covenant with my eyes.",
+"🔥 Galatians 5:16 — Walk by the Spirit.",
+"🔥 Romans 13:14 — Make no provision for the flesh.",
+"🔥 Colossians 3:5 — Put to death earthly desires.",
+"🔥 Proverbs 6:27 — You can’t carry fire and not be burned.",
+"🔥 1 Thessalonians 4:3 — This is God’s will: your sanctification."
+];
+
+let index = 0;
+
+function updateVerse() {
+    document.getElementById("stickyVerse").innerText = verses[index];
+    index = (index + 1) % verses.length;
+}
+
+setInterval(updateVerse, 10000); // changes every 10 seconds
+updateVerse();
+</script>
+
+<div class="card">
+    <h2>Explore More</h2>
+    <p>Go deeper into Christian relationships and real-life questions.</p>
+
+    <a class="button" href="relationships.html">
+        ❤️ Christian Relationships
+    </a>
+</div>
+
+
+</body>
+  </html>
